@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SponsorFragment"
+    android:background="@color/transparent">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="53dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Sponsors"
+        android:textColor="@color/white"
+        android:textSize="50dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="160dp"
+        android:layout_marginBottom="60dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TITLE SPONSOR"
+                android:textColor="#D52D86"
+                android:textSize="30dp"
+                android:paddingLeft="20dp"/>
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/titlerecyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="276dp"
+                android:paddingTop="30dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="POWERED BY"
+                android:textColor="#D52D86"
+                android:textSize="30dp"
+                android:paddingLeft="20dp"/>
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/poweredrecyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="276dp"
+                android:paddingTop="30dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ASSOCIATE SPONSOR"
+                android:textColor="#D52D86"
+                android:textSize="30dp"
+                android:paddingLeft="20dp"/>
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/associaterecyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="276dp"
+                android:paddingTop="30dp" />
+
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EDUCATION PARTNERS"
+                android:textColor="#D52D86"
+                android:textSize="30dp"
+                android:paddingLeft="20dp"/>
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/educationrecyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="276dp"
+                android:paddingTop="30dp"
+                />
+
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="COMMUNITY SPONSORS"
+                android:textColor="#D52D86"
+                android:textSize="30dp"
+                android:paddingLeft="20dp"/>
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/communityrecyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="276dp"
+                android:paddingTop="30dp" />
+
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MEDIA PARTNERS"
+                android:textColor="#D52D86"
+                android:textSize="30dp"
+                android:paddingLeft="20dp"/>
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/mediarecyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="276dp"
+                android:paddingTop="30dp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

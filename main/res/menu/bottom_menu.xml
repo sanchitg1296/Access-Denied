@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ic_home" />
+    <item
+        android:id="@+id/timeline"
+        android:title="Timeline"
+        android:icon="@drawable/ic_timeline"/>
+    <item
+        android:id="@+id/speaker"
+        android:title="Speakers"
+        android:icon="@drawable/ic_speaker"/>
+    <item
+        android:id="@+id/sponsor"
+        android:title="Sponsors"
+        android:icon="@drawable/sponsors_white"/>
+    <item
+        android:id="@+id/info"
+        android:title="Info"
+        android:icon="@drawable/ic_info"/>
+</menu>
